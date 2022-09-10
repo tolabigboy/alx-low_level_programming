@@ -12,6 +12,7 @@ int main(void)
 
 	for (t = '0'; t <= '9'; t++)
 	{
+		putchar(t);
 		if (t != 9)
 		{
 			putchar(',');
